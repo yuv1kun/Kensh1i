@@ -1,103 +1,180 @@
 
-# 🧠 Neural Network Cybersecurity Analysis Platform
+<div align="center">
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen?style=for-the-badge)](https://your-demo-url.lovable.app)
-[![Built with Lovable](https://img.shields.io/badge/Built%20with-Lovable-ff69b4?style=for-the-badge)](https://lovable.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+# 🧠 KenshiBrainWatch
 
-> 🚀 An advanced cybersecurity monitoring platform powered by neural networks and real-time data visualization
+### Neural Network Cybersecurity Analysis Platform
 
-## ✨ Features
+![GitHub last commit](https://img.shields.io/github/last-commit/yuv1kun/Kensh1i?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### 🔍 **Real-Time Network Analysis**
-- **Live Traffic Monitoring** - Monitor network packets in real-time
-- **Anomaly Detection** - AI-powered threat identification
-- **Neural Flow Visualization** - Interactive neural network diagrams
-- **Traffic Pattern Analysis** - Deep packet inspection and analysis
+<p align="center">
+  <img src="https://via.placeholder.com/800x400?text=KenshiBrainWatch+Neural+Network+Visualization" alt="KenshiBrainWatch Demo" width="800"/>
+</p>
 
-### 🧠 **AI-Powered Security**
-- **3D Brain Visualization** - Interactive Spline.js neural network
-- **Predictive Analytics** - Machine learning threat prediction
-- **Automated Response** - Intelligent threat mitigation
-- **Command Interface** - AI assistant for security operations
+</div>
 
-### 📊 **Advanced Visualizations**
-- **Cyberpunk Dashboard** - Futuristic security interface
-- **Data Flow Rivers** - Dynamic network traffic visualization
-- **Device Monitoring** - Real-time device communication tracking
-- **Attack Vector Radar** - 360° threat landscape view
+## 📋 Overview
 
-### 🎛️ **Interactive Controls**
-- **Command Palette** - Quick access to all features
-- **Layer Visibility Controls** - Toggle neural network layers
-- **Real-time Metrics** - Live system health monitoring
-- **Export Capabilities** - Data export for analysis
+**KenshiBrainWatch** is a cutting-edge cybersecurity platform that leverages neuromorphic computing principles to provide advanced threat detection, analysis, and visualization capabilities. The platform uses spiking neural networks (SNNs) and modern visualization techniques to transform traditional security monitoring into an immersive, intuitive experience.
+
+> 🚀 **Mission**: To revolutionize cybersecurity monitoring through neural network visualization and real-time anomaly detection.
+
+## ✨ Key Features
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🔍 Neural Flow Visualization</h3>
+      <p align="center">Interactive 3D visualization of neural network activity with real-time traffic patterns and anomaly highlighting.</p>
+      <p align="center"><img src="https://via.placeholder.com/400x200?text=Neural+Flow+Demo" alt="Neural Flow Visualization"/></p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🧠 AI Brain Monitoring</h3>
+      <p align="center">3D brain-inspired interface showing neural activity, with interactive controls for layer visibility.</p>
+      <p align="center"><img src="https://via.placeholder.com/400x200?text=AI+Brain+Demo" alt="AI Brain Visualization"/></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🛡️ Anomaly Detection Engine</h3>
+      <p align="center">Spiking neural networks trained to identify unusual patterns in network traffic and system behavior.</p>
+      <p align="center"><img src="https://via.placeholder.com/400x200?text=Anomaly+Detection+Demo" alt="Anomaly Detection"/></p>
+    </td>
+    <td width="50%">
+      <h3 align="center">📊 Real-time Analytics Dashboard</h3>
+      <p align="center">Cyberpunk-inspired interface with comprehensive metrics, alerts, and system health indicators.</p>
+      <p align="center"><img src="https://via.placeholder.com/400x200?text=Analytics+Dashboard+Demo" alt="Analytics Dashboard"/></p>
+    </td>
+  </tr>
+</table>
+
+## 🧪 Core Components
+
+### 🔄 Neuromorphic Processing Pipeline
+
+```mermaid
+graph LR
+    A[Data Ingestion] --> B[Feature Extraction]
+    B --> C[SNN Engine]
+    C --> D[Anomaly Detection]
+    D --> E[Alert System]
+    C --> F[Visualization Connector]
+    F --> G[UI Rendering]
+```
+
+- **Data Ingestion**: Collects and normalizes network traffic and system data
+- **Feature Extraction**: Transforms raw data into meaningful neural inputs
+- **SNN Engine**: Processes inputs through configurable spiking neural networks
+- **Anomaly Detector**: Flags unusual patterns based on learned behavior
+- **Alert System**: Generates notifications with contextual information
+- **Visualization Connector**: Bridges neural activity to visual representations
 
 ## 🛠️ Technology Stack
 
-### **Frontend**
-- **React 18** - Modern React with hooks
-- **TypeScript** - Type-safe development
-- **Tailwind CSS** - Utility-first styling
-- **Framer Motion** - Smooth animations
-- **Vite** - Lightning-fast build tool
+<div align="center">
 
-### **UI Components**
-- **Shadcn/UI** - Beautiful, accessible components
-- **Radix UI** - Low-level UI primitives
-- **Lucide React** - Consistent iconography
-- **Recharts** - Responsive chart library
+### Frontend
+![React](https://img.shields.io/badge/React_18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-### **3D & Visualization**
-- **Spline** - 3D scene creation and rendering
-- **React Three Fiber** - React renderer for Three.js
-- **D3.js** - Data-driven visualizations
-- **Canvas API** - Custom graphics rendering
+### 3D Visualization
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-5686F2?style=for-the-badge&logo=react&logoColor=white)
+![Spline](https://img.shields.io/badge/Spline-FF61F6?style=for-the-badge&logo=spline&logoColor=white)
 
-### **State Management**
-- **React Query** - Server state management
-- **React Hooks** - Local state management
-- **Context API** - Global state sharing
+### UI Components
+![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radixui&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-## 🚀 Quick Start
+</div>
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- **Node.js** 18+ ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
-- **npm** or **yarn** package manager
+
+- **Node.js** 18+ or **Bun** runtime
+- **npm**, **yarn**, or **bun** package manager
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone <YOUR_GIT_URL>
+git clone https://github.com/yuv1kun/Kensh1i.git
 
 # Navigate to project directory
-cd neural-cybersecurity-platform
+cd Kensh1i
 
 # Install dependencies
 npm install
+# or
+yarn install
+# or
+bun install
 
 # Start development server
 npm run dev
+# or
+yarn dev
+# or
+bun dev
 ```
 
 ### Development Commands
 
-```bash
-# Start development server
-npm run dev
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+| `npm run type-check` | Check TypeScript types |
 
-# Build for production
-npm run build
+## 📱 User Interface
 
-# Preview production build
-npm run preview
+<div align="center">
+<img src="https://via.placeholder.com/1200x600?text=KenshiBrainWatch+User+Interface" alt="KenshiBrainWatch UI" width="900"/>
+</div>
 
-# Type checking
-npm run type-check
+The interface is designed with a cyberpunk aesthetic featuring:
 
-# Lint code
+- **Dark Mode Optimized**: High contrast visualization for security operations centers
+- **Command Palette**: Quick access to all platform features via keyboard shortcuts
+- **Adaptive Layouts**: Responsive design for desktop monitoring stations and NOCs
+- **Interactive 3D Models**: Manipulable neural network visualizations
+
+## 🔗 Architecture
+
+KenshiBrainWatch uses a modular architecture with:
+
+- **Component-based UI**: Independent, reusable interface components
+- **Custom Hooks System**: Encapsulated business logic and state management
+- **Neural Processing Library**: Dedicated neuromorphic computing modules
+- **Visualization Engine**: Hardware-accelerated graphics rendering
+- **Mock Data System**: Development environment with realistic traffic simulation
+
+## 🤝 Contributing
+
+We welcome contributions to KenshiBrainWatch! Please feel free to submit issues and pull requests.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+<div align="center">
+
+**KenshiBrainWatch** — Neural Network Cybersecurity Analysis Platform  
+Made with ❤️ by Yuvraj Kumar
+
+</div>
 npm run lint
 ```
 
